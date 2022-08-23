@@ -1,0 +1,44 @@
+.adminn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3rem;
+    form{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        h4{
+            color: rgb(73, 69, 69);
+        }
+    }
+}
+
+select{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+.btn-gradddd {
+    display: inline-block;
+    background-image: linear-gradient(to right, #333330 0%, #b29f94  51%, #2e2b28  100%);
+    padding: 5px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btn-gradddd:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }

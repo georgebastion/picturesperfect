@@ -1,0 +1,66 @@
+.contactform{
+    display: flex;
+    position: relative;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.thecontact{
+ display: flex;
+ gap: 5rem;
+ @media screen and (max-width:1000px){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+}
+.leftside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:1000px){
+        width: 100%;
+    }
+    .headerr{
+        text-transform: capitalize;
+    }
+    .headertext{
+        text-align: left;
+        width: 25rem;
+        line-height: 1.5;
+        @media screen and (max-width:1000px){
+            width: 90vw;
+        }
+
+    }
+}
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    @media screen and (max-width:1000px){
+        width: 100vw;
+        align-items: center;
+    }
+}
+.inputs{
+    padding: .5rem;
+    border-radius: 5px;
+    width: 15rem;
+}
+.buttonSubmit{
+    font-size: 1rem;
+    width: 9rem;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        border-color: yellow;
+    }
+}

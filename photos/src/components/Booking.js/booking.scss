@@ -1,0 +1,111 @@
+.calendarr{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+}         
+
+h1{
+    font-size: 2.3rem;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    @media screen and (max-width:600px){
+        font-size: 1.5rem;
+    }
+}
+.calendardiv{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    @media screen and (max-width:1000px){
+        gap: 3rem;
+        
+    }
+}
+.calendarmain{
+    margin-left: 2rem;
+}
+
+.selectday{
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgb(82, 78, 78);
+    text-align: center;
+}
+.ssday{
+    color: black;
+    margin-left: 2rem;
+}
+.calendarshow{
+    display: flex;
+    flex-direction: column;
+
+}
+.bookk{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.bbkk{
+    color: rgb(104, 93, 93);
+}
+.topss{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-grad {
+            display: inline-block;
+            width: 15rem;
+            background-image: linear-gradient(to right, #1a1714 0%, #b29f94  51%, #2e2b28  100%);
+            margin: 10px;
+            padding: 10px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+#mimis{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 3rem;
+    @media screen and (max-width:600px){
+        grid-template-columns: repeat(1, 1fr);
+
+      gap: 15px;
+    }
+}
+#centerrr{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}

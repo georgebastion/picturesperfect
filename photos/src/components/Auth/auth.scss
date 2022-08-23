@@ -1,0 +1,43 @@
+.logss{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.formm{
+    background: rgb(165, 165, 165);
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn-graddss {
+    display: inline-block;
+    background-image: linear-gradient(to right, #20201e 0%, #b29f94  51%, #2e2b28  100%);
+    padding: 5px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btn-graddss:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .lognn{
+      display: flex;
+      justify-content: space-between;
+    margin-top: 2rem;
+      p{
+          color: #d6d2d2;
+      }
+  }

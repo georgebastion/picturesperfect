@@ -1,0 +1,69 @@
+.adminn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-bottom: 3rem;
+}
+
+.adminn form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.adminn form h4 {
+  color: #494545;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-gradddd {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#333330), color-stop(51%, #b29f94), to(#2e2b28));
+  background-image: linear-gradient(to right, #333330 0%, #b29f94 51%, #2e2b28 100%);
+  padding: 5px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-gradddd:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=admin.css.map */

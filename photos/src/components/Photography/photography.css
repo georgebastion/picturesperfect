@@ -1,0 +1,207 @@
+.photographyy {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.studioheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #746f6f;
+}
+
+.studioo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 30vh;
+}
+
+.mySwiper {
+  width: 100vw;
+}
+
+.studiopics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admIcons {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.updateIcon {
+  height: 20px;
+  cursor: pointer;
+  width: 20px;
+  color: #000;
+  padding: 10px;
+}
+
+.updateIconhover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: blue;
+}
+
+.piccs {
+  position: relative;
+}
+
+.picc {
+  height: 100%;
+  width: 100%;
+}
+
+.packages {
+  justify-items: center;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .packages {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .packages {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.cardsp {
+  padding: 1rem;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  width: 10rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#181817), color-stop(51%, #080808d3), to(#c0ba67));
+  background-image: linear-gradient(to right, #181817 0%, #080808d3 51%, #c0ba67 100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cardsp:hover {
+  background-position: right right;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.cardsp h4 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cardsp .pkicon {
+  height: 50px;
+  width: 50px;
+  color: yellow;
+}
+
+.cardsp h6 {
+  color: #a19797;
+}
+
+.btn-gradd {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e9d24f), color-stop(51%, #b29f94), to(#2e2b28));
+  background-image: linear-gradient(to right, #e9d24f 0%, #b29f94 51%, #2e2b28 100%);
+  padding: 5px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-gradd:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.ppiconn {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#363632), color-stop(30%, #b29f94), to(#2e2b28));
+  background-image: linear-gradient(to right, #363632 0%, #b29f94 30%, #2e2b28 100%);
+  padding: 5px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ppiconn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=photography.css.map */

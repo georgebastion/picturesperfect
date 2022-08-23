@@ -1,0 +1,57 @@
+.logss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formm {
+  background: #a5a5a5;
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+}
+
+.btn-graddss {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#20201e), color-stop(51%, #b29f94), to(#2e2b28));
+  background-image: linear-gradient(to right, #20201e 0%, #b29f94 51%, #2e2b28 100%);
+  padding: 5px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-graddss:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.lognn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.lognn p {
+  color: #d6d2d2;
+}
+/*# sourceMappingURL=auth.css.map */

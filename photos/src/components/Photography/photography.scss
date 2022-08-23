@@ -1,0 +1,150 @@
+.photographyy{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.studioheader{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(116, 111, 111);
+}
+.studioo{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+
+}
+.mySwiper{
+    width: 100vw;
+}
+.studiopics{
+    display: flex;
+    margin-bottom: 2rem;
+    position:relative;
+    flex-direction: column;
+    
+}
+.admIcons{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+.updateIcon{
+    height: 20px;
+    cursor: pointer;
+    width: 20px;
+    color: #000;
+    padding: 10px;
+    &hover{
+        transform: scale(1.1);
+        color: blue;
+    }
+}
+.piccs{
+    position: relative;
+    
+}
+.picc{
+    height: 100%;
+    width: 100%;
+}
+
+.packages{
+    justify-items: center;
+    width: 100vw;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+
+    @media screen and (max-width:1000px){
+        grid-template-columns: repeat(2, 1fr);
+
+        align-items: center;
+    }
+    @media screen and (max-width:500px){
+        grid-template-columns: repeat(1, 1fr);
+
+        align-items: center;
+    }
+}
+.cardsp{
+    padding: 1rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    width: 10rem;
+    background-image: linear-gradient(to right, #181817 0%, #080808d3  51%, #c0ba67  100%);
+    transition: 0.5s;
+    &:hover {
+        background-position: right right; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
+    h4{
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .pkicon{
+        height: 50px;
+        width: 50px;
+        color: yellow;
+    }
+    h6{
+        color: rgb(161, 151, 151);
+    }
+    button{
+
+    }
+}
+
+.btn-gradd {
+            display: inline-block;
+            background-image: linear-gradient(to right, #e9d24f 0%, #b29f94  51%, #2e2b28  100%);
+            padding: 5px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 10px;
+            cursor: pointer;
+          }
+
+          .btn-gradd:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+.ppiconn{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #363632 0%, #b29f94  30%, #2e2b28  100%);
+    padding: 5px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
+}
+

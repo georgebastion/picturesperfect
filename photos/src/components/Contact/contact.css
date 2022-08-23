@@ -1,0 +1,119 @@
+.contactform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  gap: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.thecontact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .thecontact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+  }
+}
+
+.leftside {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .leftside {
+    width: 100%;
+  }
+}
+
+.leftside .headerr {
+  text-transform: capitalize;
+}
+
+.leftside .headertext {
+  text-align: left;
+  width: 25rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1000px) {
+  .leftside .headertext {
+    width: 90vw;
+  }
+}
+
+form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  form {
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.inputs {
+  padding: .5rem;
+  border-radius: 5px;
+  width: 15rem;
+}
+
+.buttonSubmit {
+  font-size: 1rem;
+  width: 9rem;
+  padding: .5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonSubmit:hover {
+  border-color: yellow;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.695c687e.css",
+    "main.js": "./static/js/main.b9bc44c8.js",
+    "static/media/tt.jpg": "./static/media/tt.9d4f4a955fda1eb131f1.jpg",
+    "static/media/13692775_Black_Hoodie_Mockup.jpg": "./static/media/13692775_Black_Hoodie_Mockup.ddcc46e8f0fdffcc7953.jpg",
+    "static/media/DSC_5415.jpg": "./static/media/DSC_5415.28465253405842bbb0de.jpg",
+    "static/media/DSC_5422.jpg": "./static/media/DSC_5422.95e5c42d0c81f5516d6e.jpg",
+    "static/media/DSC_5413.jpg": "./static/media/DSC_5413.b467516e068669764b99.jpg",
+    "static/media/DSC_5419.jpg": "./static/media/DSC_5419.22318a89a040f7e57831.jpg",
+    "static/media/DSC_5424.jpg": "./static/media/DSC_5424.6902c16d484c39e39034.jpg",
+    "static/media/DSC_5412.jpg": "./static/media/DSC_5412.fc7ea6a1a1085774a861.jpg",
+    "static/media/DSC_5423.jpg": "./static/media/DSC_5423.66fd69e100c1dd501cc5.jpg",
+    "static/media/DSC_5416.jpg": "./static/media/DSC_5416.c09e27862a0eb3ecd1c1.jpg",
+    "static/media/william-thomas-ny6tO4ItOEY-unsplash.jpg": "./static/media/william-thomas-ny6tO4ItOEY-unsplash.2d07c094f0489c83a30c.jpg",
+    "static/media/tshirtt.png": "./static/media/tshirtt.0917467560468c2e1c5a.png",
+    "static/media/tshirtd.jpg": "./static/media/tshirtd.f8b8a45911cecdc06438.jpg",
+    "index.html": "./index.html",
+    "main.695c687e.css.map": "./static/css/main.695c687e.css.map",
+    "main.b9bc44c8.js.map": "./static/js/main.b9bc44c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.695c687e.css",
+    "static/js/main.b9bc44c8.js"
+  ]
+}

@@ -1,0 +1,100 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 10;
+  position: fixed;
+  padding-top: 1rem;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.navlogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  color: white;
+}
+
+.navmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .navmenu {
+    display: none;
+  }
+}
+
+.menuItem {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  font-size: 1.15rem;
+}
+
+.menuItem:hover {
+  color: #f1dfdf;
+  cursor: pointer;
+}
+
+.menuItem:hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.menuItem:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+@media screen and (min-width: 1001px) {
+  .topd {
+    display: none;
+  }
+}
+
+.topx {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: black;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .topx {
+    right: 2rem;
+  }
+}
+
+.topx .menuItem {
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=nav.css.map */
