@@ -1,9 +1,11 @@
 import express from 'express';
-import { getImages, getStudio, getWedding, createImages, updatePost, deleteImage } from '../controlers/images.js';
+import { getImages, getStudio, getWedding, createImages, updatePost, deleteImage, getBrand } from '../controlers/images.js';
 import auth from '../middleware/auth.js';
 
 const router = express.Router();
 
+//Branding
+router.get('/brand', getBrand)
 //Outdoors
 router.get('/', getImages);
 //Studio
