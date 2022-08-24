@@ -11,6 +11,7 @@ API.interceptors.request.use((req)=>{
 
 //fetchoutdoors
 export const fetchData = ()=> API.get('/photos');
+export const fetchBrand = ()=> API.get('/photos/brand');
 export const fetchStudio = () => API.get('/photos/studio');
 export const fetchWedding = () => API.get('/photos/wedding');
 

@@ -3,22 +3,28 @@
     justify-content: space-around;
     z-index: 10;
     position: fixed;
-    padding-top: 1rem;
     background: black;
     top: 0;
     left: 0;
     width: 100vw;
+    height: 3rem;
 
 }
 .navlogo{
-    display: flex;
-    margin-top: 10px;
     color: rgb(255, 255, 255);
+    width: 200px;
+    padding-bottom: 2px;
+}
+.piccnav{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .navmenu{
     display: flex;
     list-style: none;
     gap: 2rem;
+    padding-top: 12px;
 
     @media screen and (max-width:1000px){
         display: none;

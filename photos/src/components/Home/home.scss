@@ -4,25 +4,42 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    align-items:center;
     display: flex;
+}
+.pictop{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.picchome{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
 }
 .centerHome{
+    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(3, 3, 3, 0.5);
+}
+.centertxt{
     height: 70vh;
     width: 70vw;
-
-
-
 }
 .centerText{
-    font-size: 3rem;
+    position: relative;    font-size: 3rem;
     color: white;
     width: 10rem;
     @media screen and (max-width:500px){
@@ -165,4 +182,28 @@
             border-radius: 3px;
         }
     }
+}
+
+
+.homeicons{
+    position: absolute;
+    bottom: -3rem;
+    right: 4rem;
+    @media screen and (max-width:1000px){
+        right: 1rem;
+    }
+}
+
+.iconshh{
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 2rem;
+    @media screen and (max-width:1000px){
+        padding: 1rem;
+    }
+    @media screen and (max-width:600px){
+        padding: 10px;
+    }
+    
 }

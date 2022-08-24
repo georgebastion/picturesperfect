@@ -21,7 +21,7 @@ const Contact = () => {
   };
     return (
         <div className='contactform'>
-            <Nav color='white'/>
+            <Nav />
             <div className='thecontact'>  
                 <div className='leftside'>
                     <h1 className='headerr'>CONTACT</h1>

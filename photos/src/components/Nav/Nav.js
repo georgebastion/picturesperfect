@@ -7,7 +7,9 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Branding from '../Branding/Branding';
-
+import Loader from '../loader/Loader'
+import eyyy from '../../assets/images/eyezon/white.png'
+import ReactImageAppear from 'react-image-appear';
 
 const Nav = (props) => {
     const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
@@ -48,9 +50,9 @@ const Nav = (props) => {
 
     return (
         <div className='navbar'>
-            <div className='navlogo'>
-                Eyzo Photography
-            </div>
+            <a href='/' className='navlogo'>
+                <ReactImageAppear className="piccnav" src={eyyy} animation='zoomIn' Loader={<Loader />} alt='Studio Photos' />
+            </a>
             <ul className='navmenu' >
                 <span onClick={BookScroll} to='/booking' className='menuItem' >Booking</span>
                 <span onClick={PhotoScroll} to='/photography' className='menuItem' >Photography</span>

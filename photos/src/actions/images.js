@@ -2,7 +2,14 @@ import * as api from '../api';
 
 //Action Creators
 
-
+export const getBrand = () => async (dispatch) =>  {
+    try {
+        const { data } = await api.fetchBrand();
+        dispatch({type:'OTHERS', payload: data})
+    } catch (error) {
+        console.log(error.message)
+    } 
+}
 export const getImages = () => async (dispatch) =>  {
     try {
         const { data } = await api.fetchData();
